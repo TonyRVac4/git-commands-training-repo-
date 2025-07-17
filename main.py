@@ -10,3 +10,7 @@ class ABSRepository(ABC):
     @abstractmethod
     def get(self, id):
         ...
+
+    @abstractmethod
+    def delete(self, id):
+        ...
