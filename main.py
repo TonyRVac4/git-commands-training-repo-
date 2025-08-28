@@ -8,8 +8,8 @@ class ABSRepository(ABC):
         ...
 
     @abstractmethod
-    def get(self, id):
-        ...
+    def get_item_by_id(self, id):
+        return 12
 
     @abstractmethod
     def delete(self, id):
