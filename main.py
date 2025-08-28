@@ -1,6 +1,5 @@
 from abc import ABC, abstractmethod
 
-
 class ABSRepository(ABC):
 
     @abstractmethod
@@ -14,3 +13,4 @@ class ABSRepository(ABC):
     @abstractmethod
     def delete(self, id):
         ...
+print("hello world")
