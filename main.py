@@ -7,7 +7,7 @@ class ABSRepository(ABC):
         ...
 
     @abstractmethod
-    def get(self, id):
+    def list_items(self, id) -> list:
         ...
 
     @abstractmethod
