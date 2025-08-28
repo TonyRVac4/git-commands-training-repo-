@@ -1,5 +1,6 @@
 from abc import ABC, abstractmethod
 
+
 class ABSRepository(ABC):
 
     @abstractmethod
@@ -7,10 +8,9 @@ class ABSRepository(ABC):
         ...
 
     @abstractmethod
-    def list_items(self, id) -> list:
-        ...
+    def get_item_by_id(self, id):
+        return 12
 
     @abstractmethod
     def delete(self, id):
         ...
-print("hello world")
